@@ -1,0 +1,40 @@
+\begin{thebibliography}{5}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Goles and Noual(2012)}]{disj}
+\bibinfo{author}{E.~Goles}, \bibinfo{author}{M.~Noual},
+\newblock \bibinfo{title}{Disjunctive networks and update schedules},
+\newblock \bibinfo{journal}{Advances in Applied Mathematics}
+  (\bibinfo{year}{2012}).
+%Type = Book
+\bibitem[{Brualdi and Ryser(1991)}]{mat_book}
+\bibinfo{author}{R.~Brualdi}, \bibinfo{author}{H.~Ryser},
+  \bibinfo{title}{Combinatorial Matrix Theory}, \bibinfo{publisher}{Cambridge
+  University Press, Cambridge}, \bibinfo{year}{1991}.
+%Type = Masterthesis
+\bibitem[{Plana et~al.(2014)Plana, Goles, and Pérez}]{mitesis}
+\bibinfo{author}{F.~Plana}, \bibinfo{author}{E.~Goles},
+  \bibinfo{author}{J.~Pérez}, \bibinfo{title}{Filters on disjunctive Boolean
+  networks}, \bibinfo{type}{Thesis for master of science degree in computer
+  science}, Facultad de ciencias físicas y matemáticas, Universidad de Chile,
+  \bibinfo{year}{2014}. \bibinfo{note}{Available at http://goo.gl/AFqeJL}.
+%Type = Article
+\bibitem[{Goles and Montealegre(2014)}]{monteal}
+\bibinfo{author}{E.~Goles}, \bibinfo{author}{P.~Montealegre},
+\newblock \bibinfo{title}{Computational complexity of threshold automata
+  networks under different updating schemes},
+\newblock \bibinfo{journal}{Theoretical Computer Science} \bibinfo{volume}{559}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{3 -- 19}. \bibinfo{note}{Non-uniform
+  Cellular Automata}.
+%Type = Article
+\bibitem[{Kiwi et~al.(1994)Kiwi, Ndoundam, Tchuente, and Goles}]{Kiwi1994527}
+\bibinfo{author}{M.~Kiwi}, \bibinfo{author}{R.~Ndoundam},
+  \bibinfo{author}{M.~Tchuente}, \bibinfo{author}{E.~Goles},
+\newblock \bibinfo{title}{No polynomial bound for the period of the parallel
+  chip firing game on graphs},
+\newblock \bibinfo{journal}{Theoretical Computer Science} \bibinfo{volume}{136}
+  (\bibinfo{year}{1994}) \bibinfo{pages}{527 -- 532}.
+
+\end{thebibliography}

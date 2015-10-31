@@ -1,0 +1,24 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\begin{document}
+
+\begin{tikzpicture}
+[every node/.style={inner sep=0pt}]
+\node (6) [circle, minimum size=18.75pt, fill=teal, line width=1.25pt, draw=black] at (212.5pt, -137.5pt) {\textcolor{black}{6}};
+\node (7) [circle, minimum size=18.75pt, fill=teal, line width=1.25pt, draw=black] at (212.5pt, -87.5pt) {\textcolor{black}{7}};
+\node (4) [circle, minimum size=18.75pt, fill=orange, line width=1.25pt, draw=black] at (112.5pt, -137.5pt) {\textcolor{black}{4}};
+\node (3) [circle, minimum size=18.75pt, fill=orange, line width=1.25pt, draw=black] at (62.5pt, -137.5pt) {\textcolor{black}{3}};
+\node (2) [circle, minimum size=18.75pt, fill=orange, line width=1.25pt, draw=black] at (50.0pt, -87.5pt) {\textcolor{black}{2}};
+\node (5) [circle, minimum size=18.75pt, fill=orange, line width=1.25pt, draw=black] at (137.5pt, -100.0pt) {\textcolor{black}{5}};
+\node (1) [circle, minimum size=18.75pt, fill=orange, line width=1.25pt, draw=black] at (100.0pt, -62.5pt) {\textcolor{black}{1}};
+\draw [line width=1.25, ->, color=black] (5) to  (1);
+\draw [line width=1.25, ->, color=black] (1) to  (2);
+\draw [line width=1.25, ->, color=black] (5) to  (2);
+\draw [line width=1.25, ->, color=black] (2) to  (3);
+\draw [line width=1.25, ->, color=black] (3) to  [in=176, out=4] (4);
+\draw [line width=1.25, ->, color=black] (4) to  [in=240, out=50] (5);
+\draw [line width=1.25, ->, color=black] (7) to  [in=125, out=235] (6);
+\draw [line width=1.25, ->, color=black] (6) to  [in=335, out=205] (4);
+\draw [line width=1.25, ->, color=black] (1) to  [in=153, out=4] (7);
+\end{tikzpicture}

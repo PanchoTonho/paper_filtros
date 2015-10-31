@@ -1,0 +1,20 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\begin{document}
+\begin{tikzpicture}
+[every node/.style={inner sep=0pt}]
+\node (4) [circle, minimum size=16.25pt, fill=lime, line width=0.625pt, draw=black] at (125.0pt, -37.5pt) {\textcolor{black}{4}};
+\node (5) [circle, minimum size=16.25pt, fill=lime, line width=0.625pt, draw=black] at (125.0pt, -87.5pt) {\textcolor{black}{5}};
+\node (1) [circle, minimum size=16.25pt, fill=orange, line width=0.625pt, draw=black] at (62.5pt, -25.0pt) {\textcolor{black}{1}};
+\node (2) [circle, minimum size=16.25pt, fill=orange, line width=0.625pt, draw=black] at (62.5pt, -62.5pt) {\textcolor{black}{2}};
+\node (3) [circle, minimum size=16.25pt, fill=orange, line width=0.625pt, draw=black] at (62.5pt, -100.0pt) {\textcolor{black}{3}};
+\draw [line width=0.625, ->, color=black, loop above] (1) to (1);
+\draw [line width=0.625, ->, color=black] (1) to  (2);
+\draw [line width=0.625, ->, color=black] (2) to  (3);
+\draw [line width=0.625, ->, color=black] (5) to  [in=274, out=86] (4);
+\draw [line width=0.625, ->, color=black] (4) to  [in=0, out=222] (2);
+\draw [line width=0.625, ->, color=black] (2) to  [in=189, out=309] (5);
+\end{tikzpicture}
+\end{document}
